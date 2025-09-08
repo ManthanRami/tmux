@@ -20,6 +20,7 @@ sudo zypper install tmux -y
 ```bash
 git clone https://github.com/yourname/tmux-config.git ~/.tmux-config
 sh ~/.tmux-config/install_tmux_config.sh
+```
 
 Start tmux, then press:
 Prefix + I → Install plugins
