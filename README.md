@@ -66,7 +66,7 @@ Plugins (via TPM)
 
 📊 Visual Guide
 Pane Splitting
-
+```bash
 Vertical split (Prefix + |):
 +---------+---------+
 |         |         |
