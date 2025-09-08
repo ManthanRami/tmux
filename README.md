@@ -6,7 +6,6 @@ This config **adds features without overriding your original bindings**.
 
 ## 🚀 Quick Install
 
-```bash
 # Install tmux (Debian/Ubuntu)
     sudo apt install tmux -y
 
@@ -17,10 +16,9 @@ This config **adds features without overriding your original bindings**.
     sudo zypper install tmux -y
 
 #Clone and run the installer:
-    git clone https://github.com/yourname/tmux-config.git ~/.tmux-config
+    git clone https://github.com/manthanrami/tmux-config.git ~/.tmux-config
     sh ~/.tmux-config/install_tmux_config.sh
 
- 
 Start tmux, then press:
 Prefix + I → Install plugins
 Prefix + Ctrl-s → Save session (Resurrect)
