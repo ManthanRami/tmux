@@ -8,20 +8,19 @@ This config **adds features without overriding your original bindings**.
 
 ```bash
 # Install tmux (Debian/Ubuntu)
-sudo apt install tmux -y
+    sudo apt install tmux -y
 
 # Fedora
-sudo dnf install tmux -y
+    sudo dnf install tmux -y
 
 # openSUSE
-sudo zypper install tmux -y
+    sudo zypper install tmux -y
 
 #Clone and run the installer:
-```bash
-git clone https://github.com/yourname/tmux-config.git ~/.tmux-config
-sh ~/.tmux-config/install_tmux_config.sh
-```
+    git clone https://github.com/yourname/tmux-config.git ~/.tmux-config
+    sh ~/.tmux-config/install_tmux_config.sh
 
+ 
 Start tmux, then press:
 Prefix + I → Install plugins
 Prefix + Ctrl-s → Save session (Resurrect)
