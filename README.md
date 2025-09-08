@@ -1,5 +1,4 @@
-# tmux Configuration
-
+# Ultimate Tmux Configuration
 Custom `~/.tmux.conf` with quality-of-life tweaks, intuitive keybindings, a clean status bar, and TPM plugin support.  
 This config **adds features without overriding your original bindings**.
 
@@ -17,12 +16,10 @@ sudo dnf install tmux -y
 # openSUSE
 sudo zypper install tmux -y
 
-# Clone config repo
+#Clone and run the installer:
+```bash
 git clone https://github.com/yourname/tmux-config.git ~/.tmux-config
-ln -s ~/.tmux-config/.tmux.conf ~/.tmux.conf
-
-# Install TPM (plugin manager)
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+sh ~/.tmux-config/install_tmux_config.sh
 
 Start tmux, then press:
 Prefix + I → Install plugins
