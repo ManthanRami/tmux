@@ -41,7 +41,7 @@ elif [ -d "$TARGET_DIR" ]; then
 # 3. Otherwise, clone it (handles remote execution via curl/wget)
 else
   echo "📥 Cloning tmux configuration to $TARGET_DIR..."
-  git clone https://github.com/manthanrami/tmux-config.git "$TARGET_DIR"
+  git clone https://github.com/manthanrami/tmux.git "$TARGET_DIR"
   SOURCE_DIR="$TARGET_DIR"
 fi
 

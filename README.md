@@ -22,9 +22,9 @@ sudo zypper install tmux xclip curl git -y
 ### 2. Configure Tmux (One-Line Install)
 Run this command to automatically clone the repo and set up your config:
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/manthanrami/tmux-config/main/install_tmux_config.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/manthanrami/tmux/main/install_tmux_config.sh)"
 ```
-*(Alternatively, if you prefer `wget`: `bash -c "$(wget -qO- https://raw.githubusercontent.com/manthanrami/tmux-config/main/install_tmux_config.sh)"`)*
+*(Alternatively, if you prefer `wget`: `bash -c "$(wget -qO- https://raw.githubusercontent.com/manthanrami/tmux/main/install_tmux_config.sh)"`)*
 
 ---
 
