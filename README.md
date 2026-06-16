@@ -6,20 +6,38 @@ This config **adds features without overriding your original bindings**.
 
 ## 🚀 Quick Install
 
-# Install tmux (Debian/Ubuntu)
-    sudo apt install tmux -y
+### 1. Install Dependencies
+Choose the command for your OS:
+```bash
+# Debian/Ubuntu
+sudo apt install tmux xclip curl git -y
 
 # Fedora
-    sudo dnf install tmux -y
+sudo dnf install tmux xclip curl git -y
 
 # openSUSE
-    sudo zypper install tmux -y
+sudo zypper install tmux xclip curl git -y
+```
 
-#Clone and run the installer:
+### 2. Configure Tmux (One-Line Install)
+Run this command to automatically clone the repo and set up your config:
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/manthanrami/tmux-config/main/install_tmux_config.sh)"
+```
+*(Alternatively, if you prefer `wget`: `bash -c "$(wget -qO- https://raw.githubusercontent.com/manthanrami/tmux-config/main/install_tmux_config.sh)"`)*
 
-    git clone https://github.com/manthanrami/tmux-config.git ~/.tmux-config
-    sh ~/.tmux-config/install_tmux_config.sh
+---
 
+## 🛠 Manual Installation
+If you prefer to do it step-by-step:
+```bash
+git clone https://github.com/manthanrami/tmux-config.git ~/.tmux-config
+bash ~/.tmux-config/install_tmux_config.sh
+```
+
+---
+
+## ⌨️ Keybindings
 Start tmux, then press:
 Prefix + I → Install plugins
 Prefix + Ctrl-s → Save session (Resurrect)
